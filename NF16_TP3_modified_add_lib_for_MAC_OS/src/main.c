@@ -9,8 +9,8 @@ int main(void) {
     T_Patient* listepatients;
    
     fflush(stdin);
-    ajouterPatient(listepatients,7, "Viera", "Baptiste");
-    ajouterPatient(listepatients,2, "Dupont", "Pierre");
+    //ajouterPatient(listepatients,7, "Viera", "Baptiste");
+    //ajouterPatient(listepatients,2, "Dupont", "Pierre");
 
 
     int choix;
@@ -40,7 +40,7 @@ int main(void) {
             break;
  
          case 2:
-            affichage_Patients(listepatients);
+            /*affichage_Patients(listepatients);*/
             break;
  
          case 3:
